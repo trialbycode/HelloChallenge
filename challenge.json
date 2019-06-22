@@ -1,0 +1,24 @@
+{
+	"title": "Weather Service",
+	"description": "We're creating a weather service and we need your help! Clone the repository and work on the assigned tasks. When you're finished, create a pull request. This will trigger a suite of tests to check if the requirements have been met. After your code is successfully merged we may assign more tasks.",
+	"author": "Dan Koster",
+	"dockerImage": "node-jasmine",
+	"initialCode" : {
+		"folder": "code",
+		"test": "./test/task0.js"
+	},
+	"tasks": [
+		{
+			"id": 1,
+			"title": "Temperature feels like",
+			"instructions": "Implement the 'feels' property to return the name of the appropriate temperature range.",
+			"tests": "./test/task1.js"
+		},
+		{
+			"id": 2,
+			"title": "Add Celcius conversion",
+			"instructions": "Implement Celcius conversion. Add a constructor parameter called 'scale' accepting 'F' or 'C' and convert the temperatures appropriately. Default to 'F'. Add 'c' and 'f' properties to the class and return correct temperatures.",
+			"tests": "./test/task2.js"
+		}
+	]
+}
