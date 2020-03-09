@@ -15,7 +15,7 @@
 			"title": "Temperature feels like",
 			"tests": "tests/task1.js",
 			"solution": "solution/temperature.js",
-			"Issues": [
+			"issues": [
 				{
 					"title": "Implement the 'feels' property",
 					"markdown": "Implement the 'feels' property to return the name of the appropriate temperature range."
@@ -27,7 +27,7 @@
 			"title": "Add Celcius conversion",
 			"tests": "tests/task2.js",
 			"solution": "solution/temperature.js",
-			"Issues": [
+			"issues": [
 				{
 					"title": "Implement Celcius conversion",
 					"markdown": "Add a constructor parameter called 'scale' accepting 'F' or 'C' and convert the temperatures appropriately. Default to 'F'."
