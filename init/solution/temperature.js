@@ -8,7 +8,7 @@ class temperature {
 		}
 	}
 
-	get feels() { return undefined }
+	get feels() { throw 'Not Implemented' }
 }
 
 module.exports = temperature

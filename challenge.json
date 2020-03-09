@@ -1,24 +1,42 @@
 {
 	"title": "Weather Service",
-	"description": "We're creating a weather service and we need your help! Clone the repository and work on the assigned tasks. When you're finished, create a pull request. This will trigger a suite of tests to check if the requirements have been met. After your code is successfully merged we may assign more tasks.",
+	"description": "This is a sample challenge repository",
 	"author": "Dan Koster",
 	"dockerImage": "node-jasmine",
-	"initialCode" : {
-		"folder": "code",
-		"test": "./test/task0.js"
+	"init": {
+		"path": "./init",
+		"title": "Temperature feels like",
+		"tests": "./tests/task0.js",
+		"solution": "./solution"
 	},
 	"tasks": [
 		{
-			"id": 1,
+			"path": "./task1",
 			"title": "Temperature feels like",
-			"instructions": "Implement the 'feels' property to return the name of the appropriate temperature range.",
-			"tests": "./test/task1.js"
+			"tests": "./tests/task1.js",
+			"solution": "./solution/temperature.js",
+			"Issues": [
+				{
+					"title": "Implement the 'feels' property",
+					"markdown": "Implement the 'feels' property to return the name of the appropriate temperature range."
+				}
+			]
 		},
 		{
-			"id": 2,
+			"path": "./task2",
 			"title": "Add Celcius conversion",
-			"instructions": "Implement Celcius conversion. Add a constructor parameter called 'scale' accepting 'F' or 'C' and convert the temperatures appropriately. Default to 'F'. Add 'c' and 'f' properties to the class and return correct temperatures.",
-			"tests": "./test/task2.js"
+			"tests": "./tests/task2.js",
+			"solution": "./solution/temperature.js",
+			"Issues": [
+				{
+					"title": "Implement Celcius conversion",
+					"markdown": "Add a constructor parameter called 'scale' accepting 'F' or 'C' and convert the temperatures appropriately. Default to 'F'."
+				},
+				{
+					"title": "Implement scale properties",
+					"markdown": "Add 'c' and 'f' properties to the class and return correct temperatures."
+				}
+			]
 		}
 	]
 }
