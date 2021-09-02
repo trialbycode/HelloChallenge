@@ -1,4 +1,4 @@
-const temperature = require('../code/temperature.js')
+const temperature = require('../../../userRepo/temperature')
 
 describe('Feels Like', () => {
 	it(`${Number.MIN_VALUE} should feel cold`, () => {
@@ -13,9 +13,9 @@ describe('Feels Like', () => {
 		let temp = new temperature(59.9);
 		expect(temp.feels).toEqual('cold')
 	})
-	it('60 should feel nice', () => {
+	it('60 should feel cold', () => {
 		let temp = new temperature(60);
-		expect(temp.feels).toEqual('nice')
+		expect(temp.feels).toEqual('cold')
 	})
 	it('79.9 should feel nice', () => {
 		let temp = new temperature(79.9);

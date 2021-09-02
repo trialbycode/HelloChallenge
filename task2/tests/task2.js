@@ -1,4 +1,4 @@
-const temperature = require('../code/temperature.js')
+const temperature = require('../../../userRepo/temperature')
 
 describe('Scale conversion', () => {
 	it(`default to F`, () => {
