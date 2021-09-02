@@ -4,17 +4,15 @@
 	"author": "Dan Koster",
 	"dockerImage": "node-jasmine",
 	"init": {
-		"path": "init",
 		"title": "Temperature feels like",
-		"tests": "tests/task0.js",
-		"solution": "solution"
+		"testPaths": ["init/tests/*.js"],
+		"solutionPath": "init/solution/temperature.js"
 	},
 	"tasks": [
 		{
-			"path": "task1",
 			"title": "Temperature feels like",
-			"tests": "tests/task1.js",
-			"solution": "solution/temperature.js",
+			"testPaths": ["task1/tests/*.js"],
+			"solutionPath": "task1/solution/temperature.js",
 			"issues": [
 				{
 					"title": "Implement the 'feels' property",
@@ -23,10 +21,9 @@
 			]
 		},
 		{
-			"path": "task2",
 			"title": "Add Celcius conversion",
-			"tests": "tests/task2.js",
-			"solution": "solution/temperature.js",
+			"testPaths": ["task1/tests/*.js", "task2/tests/*.js"],
+			"solutionPath": "task2/solution/temperature.js",
 			"issues": [
 				{
 					"title": "Implement Celcius conversion",
