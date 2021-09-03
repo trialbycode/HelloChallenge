@@ -6,7 +6,7 @@ describe('Initial State', () => {
 		temp = new temperature(72)
 	})
 
-	it('feels should be undefined', () => {
+	it('feels should be Not Implemented', () => {
 		expect(temp.feels).toThrow('Not Implemented')
 	})
 })
