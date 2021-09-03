@@ -7,6 +7,6 @@ describe('Initial State', () => {
 	})
 
 	it('feels should be Not Implemented', () => {
-		expect(temp.feels).toThrow('Not Implemented')
+		expect(temp.feels).toThrowError('Not Implemented')
 	})
 })
