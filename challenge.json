@@ -10,6 +10,11 @@
 	},
 	"tasks": [
 		{
+			"title": "Initial State",
+			"testPaths": ["init/tests/*.js"],
+			"solutionPath": "init/solution/temperature.js"
+		},
+		{
 			"title": "Temperature feels like",
 			"testPaths": ["task1/tests/*.js"],
 			"solutionPath": "task1/solution/temperature.js",
