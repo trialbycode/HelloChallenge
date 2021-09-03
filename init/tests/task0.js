@@ -7,6 +7,6 @@ describe('Initial State', () => {
 	})
 
 	it('feels should be undefined', () => {
-		expect(temp.feels).toEqual(undefined)
+		expect(temp.feels).toThrow('Not Implemented')
 	})
 })
